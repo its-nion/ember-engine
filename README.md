@@ -2,6 +2,8 @@
 
 > My goal is to build a 3D cellular automata app with the engine.
 
+> Special thanks to @blurrypiano | [Brendan Galea](https://www.youtube.com/channel/UC9pXmjxsQHeFH9vgCeRsHcw) who made a tutorial which i follow step by step to learn more about vulkan
+
 | Name  | Usage |
 | ------------- | ------------- |
 | C++  | core of the engine  |
