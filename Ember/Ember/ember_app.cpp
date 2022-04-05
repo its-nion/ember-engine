@@ -27,9 +27,9 @@ namespace ember {
 
 	void sierpinski(std::vector<EmberModel::Vertex>& vertices, int depth, glm::vec2 top, glm::vec2 right, glm::vec2 left) {
 		if (depth <= 0) {
-			vertices.push_back({ top });
-			vertices.push_back({ right });
-			vertices.push_back({ left });
+			vertices.push_back({ top , {1.0f, 1.0f, 1.0f} });
+			vertices.push_back({ right , {1.0f, 1.0f, 1.0f} });
+			vertices.push_back({ left, {1.0f, 1.0f, 1.0f} });
 		}
 		else {
 			auto leftMidPoint = top + 0.5f * (left - top);
@@ -44,7 +44,7 @@ namespace ember {
 
 	void EmberApp::loadModels() {
 		/*std::vector<EmberModel::Vertex> vertices;
-		sierpinski(vertices, 6, { 0.0f, -0.5f }, { 0.5f, 0.5f }, { -0.5f, 0.5f });*/
+		sierpinski(vertices, 5, { 0.0f, -0.5f }, { 0.5f, 0.5f }, { -0.5f, 0.5f });*/
 
 		std::vector<EmberModel::Vertex> vertices{
 			{{0.0f, -0.5f}, {1.0f, 0.0f, 0.0f}},
