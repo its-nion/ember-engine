@@ -11,3 +11,6 @@
 | GLFW  | window library, makes the app plattform independent  |
 | GLM  | math library  |
 
+Sierpinski triangle       |  Triangle visualising barycentric coordinates
+:-------------------------:|:-------------------------:
+![](pictures/TriangleSierpinski.png)  |  ![](pictures/TriangleWithBarycentricCoordinates.png)
